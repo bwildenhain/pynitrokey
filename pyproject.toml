@@ -20,6 +20,7 @@ classifiers = [
   "Programming Language :: Python :: 3.11",
 ]
 dependencies = [
+  "oscrypto @ git+https://github.com/wbond/oscrypto.git@1547f535001ba568b239b8797465536759c742a3",
   "certifi >= 14.5.14",
   "cffi",
   "click >=8.0, <=8.1.3",
